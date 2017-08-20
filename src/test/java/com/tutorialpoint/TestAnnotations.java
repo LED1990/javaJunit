@@ -32,6 +32,10 @@ public class TestAnnotations {
 	}
 	
 	@Test
+	//@Test(timeout = 1000)
+	/*
+	 * timeout is used when you want to check if test doesn't take to much time [ms]
+	 */
 	public void testOne(){
 		System.out.println("test one");
 	}
